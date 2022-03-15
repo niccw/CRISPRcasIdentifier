@@ -38,7 +38,7 @@ WORKDIR /home/crispr
 RUN wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
 RUN bash Miniconda3-latest-Linux-x86_64.sh -b
 RUN rm Miniconda3-latest-Linux-x86_64.sh
-ENV PATH ~/miniconda3/bin:$PATH
+ENV PATH /home/crispr/miniconda3/condabin:~/miniconda3/bin:$PATH
 
 # creating CRISPRcasIdentifier's env and making it active by default
 # and removing additional unnecessary files (see https://jcristharif.com/conda-docker-tips.html)

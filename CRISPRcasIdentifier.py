@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 """
     CRISPRcasIdentifier
     Copyright (C) 2020 Victor Alexandre Padilha <victorpadilha@usp.br>,
